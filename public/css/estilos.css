@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+body{
+background-color: #094FA4;
+font-family: Arial, Helvetica, sans-serif;
+color: #EEEEEE;
+}
+textarea{
+border-radius:4px;
+color:gray;
+width: 50%;
+}
+
+img{
+padding:0px;
+margin:0px;
+}
+
+button{
+	   background:-moz-linear-gradient(#f9f9f9 0%,#DADADA 100%);
+       background:-ms-linear-gradient(#f9f9f9 0%,#DADADA 100%); 
+       background:-o-linear-gradient(#f9f9f9 0%,#DADADA 100%); 
+       background:-webkit-linear-gradient(#f9f9f9 0%,#DADADA 100%); 
+       background:linear-gradient(#f9f9f9 0%,#DADADA 100%);
+       border:solid 2px #BBBBBB; 
+       border-radius:4px;
+       text-align:center;
+       padding:5px;        
+	   color:gray; 
+       width:75px;
+	   display:block;
+}
+
+#cabecera{
+	border: 0px solid #999999;
+	padding: 2px;
+	margin:35px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background:linear-gradient(270deg,#CCC 50%,white 80%);
+	border-radius:4px;
+	color:#004A95;	
+	font-family: sans-serif;
+	font-size: 25px;
+	
+}
+
+#tsec{
+display:none;
+}
+
+#trucha-move,#trucha-moveheavier,#trucha-delay{
+display: none;
+width: 90%;
+height:450px;
+font-size:16px;
+margin-left:38px;
+padding:5px;
+padding-left:45px;
+background-color:#2760A6;
+}
+
+/*nav{
+    //Bordes redondeados
+    -webkit-border-radius:10px;//Para chrome y Safari
+    -moz-border-radius:10px;//Para Firefox
+    -o-border-radius:10px;//Para Opera
+    border-radius:10px;//El estandar por defecto
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));//Para chrome y Safari
+    //Degradados
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);//Para Firefox
+    background-image: -o-linear-gradient(top, #FFF, #CCC);//Para Opera
+    background-image: linear-gradient(top, #FFF, #CCC);//El estandar por defecto
+    overflow:hidden;
+    padding:8px;
+    //width:950px;
+	width:93%;
+	margin-left:38px;	
+}*/
+/*nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}*/
+
+/*nav ul li{
+    //Bordes redondeados
+    -webkit-border-radius:5px;//Chrome y Safari
+    -moz-border-radius:5px;//Firefox
+    -o-border-radius:5px;//Opera
+    border-radius:5px;//Estandar por defecto
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    //Sombras para texto, los mismos parametros que box-shadow
+    text-shadow: 0px 1px 0px #FFF;	
+	color:#999;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    //Transiciones
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}*/
+
+/*nav ul li:hover{    
+	margin-top:-4px;
+	padding-bottom:14px;
+	cursor:pointer;
+	text-decoration:underline;
+}*/
